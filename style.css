@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: auto;
+    width: 100%;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    margin: 0;
+}
+
+.topnav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #727272;
+    border: 3px solid #000;
+    overflow: hidden;
+}
+
+.topnav a {
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a.active {
+    background-color: #be0504;
+    color: #000000;
+}
+
+.topnav a:hover {
+    background-color: #be0504;
+    color: #000;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    background: linear-gradient(to bottom, #a30404 0%, #727272 50%,#000000 100%);
+    width: 100%;
+}
+
+img.header-img {
+    max-width: 90%;
+    width: 100%;
+    max-height: 75%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    border: 3px solid #000;
+}
+
+img.container-img {
+    border: 3px solid #000;
+    width: 75%;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+img.container-dual-img {
+    border: 3px solid #000;
+    width: 75%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    color: black;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.links {
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.Container {
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    box-sizing: border-box;
+    color: white;
+    background-color: #727272;
+}
+
+.Container-red {
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    box-sizing: border-box;
+    color: white;
+    background-color: #be0504;
+}
+
+.Container-old-red {
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    box-sizing: border-box;
+    color: white;
+    background-color: #780606;
+}
+
+table {
+    border: 3px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    table-layout: fixed;
+    overflow: auto;
+    word-break: break-all;
+}
+
+tr.table-headers {
+    background-color: #000;
+}
+
+tr {
+    text-size-adjust: auto;
+    font-size: medium;
+}
+
+tr.zion {
+    background-color: #fffe40;
+    color: black;
+}
+
+tr.will {
+    background-color: #dea193;
+    color: white;
+}
+
+tr.max {
+    background-color: #93e9be;
+    color: black;
+}
+
+tr.jesse {
+    background-color: #8f00ff;
+    color: white;
+}
+
+tr.jordan {
+    background-color: #004953;
+    color: white;
+}
+
+tr.brennan {
+    background: #000080;
+    color: white;
+}
+
+tr.tiki {
+    background-color: #060313;
+    color: white;
+}
+
+tr.mike {
+    background-color: #87ceeb;
+    color: black;
+}
+
+tr.jon {
+    background-color: #cc5500;
+    color: white;
+}
+
+tr.jj {
+    background-color: #9966cc;
+    color: white;
+}
+
+tr.ray {
+    background-color: #980001;
+    color: white;
+}
+
+tr.kenny {
+    background-color: #4169e1;
+    color: white;
+}
+
+tr.halsey {
+    background-color: #808000;
+    color: white;
+}
+
+tr.jacob {
+    background-color: #7b0323;
+    color: white;
+}
+
+td {
+    border: 2px solid #000;
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: medium;
+}
+
+td.reg {
+    background-color: #000;
+    color: white;
+}
+
+td.win {
+    background-color: green;
+    color: white;
+}
+
+td.loss {
+    background-color: red;
+    color: white;
+}
+
+td.zion {
+    background-color: #fffe40;
+    color: black;
+}
+
+td.will {
+    background-color: #dea193;
+    color: white;
+}
+
+td.max {
+    background-color: #93e9be;
+    color: black;
+}
+
+td.jesse {
+    background-color: #8f00ff;
+    color: white;
+}
+
+td.jordan {
+    background-color: #004953;
+    color: white;
+}
+
+td.brennan {
+    background: #000080;
+    color: white;
+}
+
+td.tiki {
+    background-color: #060313;
+    color: white;
+}
+
+td.mike {
+    background-color: #87ceeb;
+    color: black;
+}
+
+td.jon {
+    background-color: #cc5500;
+    color: white;
+}
+
+td.jj {
+    background-color: #9966cc;
+    color: white;
+}
+
+td.ray {
+    background-color: #980001;
+    color: white;
+}
+
+td.kenny {
+    background-color: #4169e1;
+    color: white;
+}
+
+td.halsey {
+    background-color: #808000;
+    color: white;
+}
+
+td.jacob {
+    background-color: #7b0323;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .Container div {
+        width: 75%;
+        font-size: 20px;
+    }
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Impact;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-align: center;
+    overflow: hidden;
+}
+
+h2.senpai {
+    font-family: cursive;
+}
+
+div.weeks {
+    border: 8px solid black;
+    width: fit-content;
+}
+
+h3 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: #727272;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4.zion {
+    background-color: #fffe40;
+    color: black;
+}
+
+h4.will {
+    background-color: #dea193;
+    color: white;
+}
+
+h4.max {
+    background-color: #93e9be;
+    color: black;
+}
+
+h4.jesse {
+    background-color: #8f00ff;
+    color: white;
+}
+
+h4.jordan {
+    background-color: #004953;
+    color: white;
+}
+
+h4.brennan {
+    background: #000080;
+    color: white;
+}
+
+h4.tiki {
+    background-color: #060313;
+    color: white;
+}
+
+h4.mike {
+    background-color: #87ceeb;
+    color: black;
+}
+
+h4.jon {
+    background-color: #cc5500;
+    color: white;
+}
+
+h4.jj {
+    background-color: #9966cc;
+    color: white;
+}
+
+h4.ray {
+    background-color: #980001;
+    color: white;
+}
+
+h4.kenny {
+    background-color: #4169e1;
+    color: white;
+}
+
+h4.halsey {
+    background-color: #808000;
+    color: white;
+}
+
+h4.jacob {
+    background-color: #7b0323;
+    color: white;
+}
+
+h4.placard {
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid black 3px;
+}
+
+h4.champ {
+    background-color: #d4af37;
+    border: solid black 3px;
+}
+
+h5 {
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p.scoop {
+    font-family: 'Times New Roman', Times, serif;
+}
